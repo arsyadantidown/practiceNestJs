@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { CreateTaskDto } from './DTO/createTask.dto';
-import {UpdateTaskDto} from './DTO/updateTask.dto'
+import {UpdateTaskDto} from './DTO/updateTask.dto';
 import { Task } from './interface/task.interface';
 
 @Injectable()
